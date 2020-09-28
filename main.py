@@ -1,11 +1,11 @@
 import sys
-
-
 from PyQt5.QtWidgets import QApplication
-from  model import evaluateExpression
+from model import evaluateExpression
 from controller import Controller
 
 from view import GUI
+
+
 # Client code
 def main():
     """Main function."""
@@ -17,5 +17,7 @@ def main():
     view = GUI()
     view.show()
     sys.exit(pycalc.exec_())
+
+
 if __name__ == '__main__':
     main()
